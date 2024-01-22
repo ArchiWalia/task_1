@@ -1,0 +1,34 @@
+
+.card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    width: 80%; 
+    box-shadow: 0 4px 8px rgba(129, 23, 23, 0.1);
+    box-sizing: border-box;
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; 
+    }
+  }
+  
+  
